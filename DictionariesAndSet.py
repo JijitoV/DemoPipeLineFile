@@ -7,3 +7,4 @@ dict1 = {
     'Programming' : {'Frontend' : ['html', 'css'], 'Backend' : {'java', 'python'}, 'Tool' : {'java': {'eclipse','vscode'}}  }
     }
 print(dict1['Programming']['Tool']['java'])
+print(dict1.get('Lang', 'Not Found'))
